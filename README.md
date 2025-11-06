@@ -3,14 +3,14 @@ streambench 를 GPU에 적용하는 실습
 
 
 ------------------------------         
-### 1. python llama 서버 설치
+### 1. python llama 서버 설치   
 GPU 포함 
 ```
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
   pip install --no-cache-dir --force-reinstall llama-cpp-python[server]
 ```
 
-### 2. llama 서버 실행 
+### 2. llama 서버 실행         
 ```
 python -m llama_cpp.server \
   --model tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf \
@@ -20,18 +20,18 @@ python -m llama_cpp.server \
 ```
 
 
-### 3. 로컬 llm 모델 다운로드 
+### 3. 로컬 llm 모델 다운로드         
 hugging face같은 페이지 접속해서 돌려보고 싶은 모델 다운로드     
 [https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF)
 
 
-### 4. streambench github clone 
+### 4. streambench github clone           
 ```
 git clone https://github.com/stream-bench/stream-bench
 ```
 
 
-### 5. streambench 환경설정
+### 5. streambench 환경설정           
 - 가상환경 설치 및 접속
 ```
 python3 -m venv venv        
@@ -56,7 +56,7 @@ export OAI_KEY="local"
 export OAI_BASE="http://127.0.0.1:8080/v1"
 ```
 
-### 6. streambench 실행
+### 6. streambench 실행         
 
 ```
 # 가상환경 활성화 후(venv 추천) 레포 디렉토리에서:
