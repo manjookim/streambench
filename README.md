@@ -26,13 +26,13 @@ python -m llama_cpp.server \
 ### 3. 로컬 llm 모델 다운로드         
 hugging face같은 페이지 접속해서 돌려보고 싶은 모델 다운로드     
 [https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF)
-
+<br>
 
 ### 4. streambench github clone           
 ```
 git clone https://github.com/stream-bench/stream-bench
 ```
-
+<br>
 
 ### 5. streambench 환경설정           
 - 가상환경 설치 및 접속
@@ -58,6 +58,7 @@ llm:
 export OAI_KEY="local"
 export OAI_BASE="http://127.0.0.1:8080/v1"
 ```
+<br>
 
 ### 6. streambench 실행         
 
