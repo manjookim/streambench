@@ -15,17 +15,24 @@
 
 <br>
 
-## 1. python llama 서버 설치   
-GPU 포함해서 설치
+## 1. python llama 서버 설치  
+- CPU 설치
+```
+pip install -U "llama-cpp-python[server]"
+```
+
+- GPU 설치
 ```
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
-  pip install --no-cache-dir --force-reinstall llama-cpp-python[server]
+  pip install llama-cpp-python[server]
 ```
 
 <br>
 
 
-## 2. llama 서버 실행         
+## 2. llama 서버 실행   
+
+- GPU 실행
 ```
 python -m llama_cpp.server \
   --model tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf \
@@ -33,6 +40,7 @@ python -m llama_cpp.server \
   --n_batch 256  --n_gpu_layers 999 \
   --host 127.0.0.1 --port 8080
 ```
+CPU에서 실행하려면 `gpu layer`값을 0
 <br>
 
 ## 3. 로컬 llm 모델 다운로드         
