@@ -11,6 +11,8 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
 ```
 
 <br>
+
+
 ### 2. llama 서버 실행         
 ```
 python -m llama_cpp.server \
