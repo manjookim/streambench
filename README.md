@@ -12,7 +12,7 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
 
 
 ### 2. 로컬 llm 모델 다운로드 
-hugging face같은 페이지 접속해서 돌려보고 싶은 모델 다운로드 
+hugging face같은 페이지 접속해서 돌려보고 싶은 모델 다운로드     
 [https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF)
 
 ### 3. streambench 실행 
