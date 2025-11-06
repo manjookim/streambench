@@ -7,7 +7,7 @@
 ## 실험환경
 - Jetson Orin Nano (Ubuntu 22.04 / Python 3.10)
 - python llama 기반 OpenAI 호환 로컬 서버
-- StreamBench (agent:zeroshot, bench:ddxplus)
+- StreamBench (agent : zeroshot, bench : ddxplus)
 
 <br>
 
