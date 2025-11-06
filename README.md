@@ -1,6 +1,14 @@
 # streambench
 streambench 를 GPU에 적용해보는 실습 
 
+## 목적
+1. 본 실습은 로컬 LLM 서버 <-> StreamBench 파이프라인이 GPU에서 정상 동작하는지 확인하기 위함.
+2. 모델/데이터셋 정렬, 프롬프트/하이퍼파라미터, 정확도 향상/튜닝은 각자 환경에서 별도 수행해야 함.
+
+## 실험환경
+- Jetson Orin Nano (Ubuntu 22.04 / Python 3.10)
+- python llama 기반 OpenAI 호환 로컬 서버
+- StreamBench (agent:zeroshot, bench:ddxplus)
 
 ------------------------------         
 ## 1. python llama 서버 설치   
