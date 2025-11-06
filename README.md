@@ -26,7 +26,7 @@ python -m llama_cpp.server \
 ## 3. 로컬 llm 모델 다운로드         
 hugging face 접속해서 원하는 모델 다운로드    
 <br>
-[https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF)
+(예시) [https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF)
 
 <br>
 
