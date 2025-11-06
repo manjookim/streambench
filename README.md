@@ -21,7 +21,7 @@
 pip install -U "llama-cpp-python[server]"
 ```
 
-- GPU 설치
+- GPU 백엔드 포함 설치
 ```
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
   pip install llama-cpp-python[server]
@@ -40,7 +40,7 @@ python -m llama_cpp.server \
   --n_batch 256  --n_gpu_layers 999 \
   --host 127.0.0.1 --port 8080
 ```
-CPU에서 실행하려면 `gpu layer`값을 0
+CPU에서 실행하려면 `gpu layer`값을 0 또는 설정 안함
 
 <br>
 
