@@ -29,8 +29,14 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
 
 <br>
 
+## 2. 로컬 llm 모델 다운로드         
+hugging face 접속해서 원하는 모델 다운로드    
+<br>
+(예시) [https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF)
 
-## 2. llama 서버 실행   
+<br>
+
+## 3. llama 서버 실행   
 
 - GPU 실행
 ```
@@ -44,12 +50,7 @@ CPU에서 실행하려면 `gpu layer`값을 0 또는 설정 안함
 
 <br>
 
-## 3. 로컬 llm 모델 다운로드         
-hugging face 접속해서 원하는 모델 다운로드    
-<br>
-(예시) [https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF)
 
-<br>
 
 ## 4. streambench github clone           
 ```
