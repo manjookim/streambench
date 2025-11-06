@@ -41,6 +41,7 @@ python -m llama_cpp.server \
   --host 127.0.0.1 --port 8080
 ```
 CPU에서 실행하려면 `gpu layer`값을 0
+
 <br>
 
 ## 3. 로컬 llm 모델 다운로드         
