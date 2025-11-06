@@ -31,8 +31,15 @@ git clone https://github.com/stream-bench/stream-bench
 ```
 
 
-### 5. streambench 실행 전 
-사용하는 모델에 맞추어 코드 변경
+### 5. streambench 환경설정
+- 가상환경 설치 및 접속
+```
+python3 -m venv venv        
+source venv/bin/activate
+```
+
+- 필요한 패키지 다운로드 
+
 
 - `configs/agent/zeroshot.yaml` 파일 수정
 ```
@@ -46,6 +53,8 @@ llm:
 export OAI_KEY="local"
 export OAI_BASE="http://127.0.0.1:8080/v1"
 ```
+
+- 
 
 ### 6. streambench 실행
 
