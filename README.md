@@ -1,5 +1,4 @@
-# streambench
-streambench 를 GPU에 적용해보는 실습 
+# streambench 실습
 
 ## 목적
 1. 본 실습은 로컬 LLM 서버 <-> StreamBench 파이프라인이 GPU에서 정상 동작하는지 확인하기 위함.
