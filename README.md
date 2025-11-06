@@ -26,6 +26,7 @@ python -m llama_cpp.server \
 ### 3. 로컬 llm 모델 다운로드         
 hugging face같은 페이지 접속해서 돌려보고 싶은 모델 다운로드     
 [https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF)
+
 <br>
 
 ### 4. streambench github clone           
