@@ -1,10 +1,10 @@
 # streambench
-streambench 적용 실습 
+streambench 를 GPU에 적용하는 실습 
 
 
 ------------------------------         
 ### 1. llama 서버 설치
-
+GPU 포함 
 ```
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
   pip install --no-cache-dir --force-reinstall llama-cpp-python[server]
@@ -12,6 +12,14 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
 
 
 ### 2. 로컬 llm 모델 다운로드 
-
+hugging face같은 페이지 접속해서 돌려보고 싶은 모델 다운로드 
+[https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF)
 
 ### 3. streambench 실행 
+```
+python -m llama_cpp.server \
+  --model tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf \
+  --n_ctx 2048 \
+  --n_batch 256  --n_gpu_layers 999 \
+  --host 127.0.0.1 --port 8080
+```
