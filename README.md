@@ -9,7 +9,7 @@ GPU 포함
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
   pip install --no-cache-dir --force-reinstall llama-cpp-python[server]
 ```
-
+      
 ### 2. llama 서버 실행         
 ```
 python -m llama_cpp.server \
