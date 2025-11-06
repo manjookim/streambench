@@ -39,7 +39,9 @@ source venv/bin/activate
 ```
 
 - 필요한 패키지 다운로드 
-
+```
+pip install -r requirements.txt
+```
 
 - `configs/agent/zeroshot.yaml` 파일 수정
 ```
