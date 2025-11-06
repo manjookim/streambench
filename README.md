@@ -21,7 +21,7 @@ python -m llama_cpp.server \
   --n_batch 256  --n_gpu_layers 999 \
   --host 127.0.0.1 --port 8080
 ```
-
+<br>
 
 ### 3. 로컬 llm 모델 다운로드         
 hugging face같은 페이지 접속해서 돌려보고 싶은 모델 다운로드     
