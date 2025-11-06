@@ -16,7 +16,7 @@
 <br>
 
 ## 1. python llama 서버 설치   
-GPU 포함 
+GPU 포함해서 설치
 ```
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" \
   pip install --no-cache-dir --force-reinstall llama-cpp-python[server]
@@ -74,7 +74,8 @@ export OAI_BASE="http://127.0.0.1:8080/v1"
 ```
 <br>
 
-## 6. streambench 실행         
+## 6. streambench 실행     
+llama 로컬 서버가 백그라운드에서 돌아가고 있고, 새로운 터미널에서 실행해야 함 
 
 ```
 # 가상환경 활성화 후(venv 추천) 레포 디렉토리에서:
